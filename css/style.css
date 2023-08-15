@@ -36,3 +36,9 @@ label {
   text-align: left;
   cursor: pointer;
 }
+
+.btn:hover {
+  background: #13293d;
+  color: #fff;
+}
+
