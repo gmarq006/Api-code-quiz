@@ -42,3 +42,22 @@ label {
   color: #fff;
 }
 
+#next-btn {
+  background: #13293d;
+  color: #fff;
+  font-weight: 500;
+  border: 0;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 4px;
+  display: none;
+
+}
+
+.correct {
+  background: green;
+}
+
+.incorrect {
+  background: red;
+}
