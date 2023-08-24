@@ -26,6 +26,7 @@ body {
   color: lightseagreen;
   font-weight: 600;
   border-bottom: 1px solid blueviolet;
+  padding-left: 130px;
   padding-bottom: 30px;
 }
 
@@ -37,6 +38,7 @@ body {
 
 .quiz h2 {
   font-size: 20px;
+  padding-left: 45px;
   color: #13293d;
   font-weight: 600;
 }
@@ -57,10 +59,11 @@ body {
   transition: all 0.3s;
 }
 
-.btn:hover {
+.btn: hover {
   background: blue;
   color: #fff;
 }
+
 
 #next-btn {
   background: #13293d;
