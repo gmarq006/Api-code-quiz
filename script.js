@@ -15,7 +15,7 @@ const questions = [
             { text: "Green", correct: true },
         ]
     }
-]
+];
 
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");

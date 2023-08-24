@@ -12,7 +12,7 @@ body {
 }
 
 .app {
-  background: blue;
+  background: white;
   width: 90%;
   max-width: 600px;
   margin: 100px auto 0;
@@ -34,31 +34,25 @@ body {
 }
 
 
-form h3 {
-  font-size: 150%;
-}
-
-
-label {
-  display: block;
-}
 
 .quiz h2 {
   font-size: 20px;
   color: #13293d;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .btn {
   color: blue;
-  background-color: #fff;
+  background: #fff;
   font-weight: 500;
-  width: 80%;
+  width: 100%;
   border: 1px solid gray;
   padding: 10px;
-  margin: 10px;
+  margin: 10px 0;
   text-align: left;
+  border-radius: 4px;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 .btn:hover {
@@ -70,11 +64,13 @@ label {
   background: #13293d;
   color: #fff;
   font-weight: 500;
+  width: 150px;
   border: 0;
   padding: 10px;
-  margin: 20px;
+  margin: 20px auto 0;
   border-radius: 4px;
-  display: none;
+  cursor: pointer;
+  display: block;
 
 }
 
