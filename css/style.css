@@ -23,7 +23,7 @@ body {
 
 .app h1 {
   font-weight: 25px;
-  color: antiquewhite;
+  color: lightseagreen;
   font-weight: 600;
   border-bottom: 1px solid blueviolet;
   padding-bottom: 30px;
@@ -42,10 +42,12 @@ body {
 }
 
 .btn {
-  color: blue;
+  color: lightseagreen;
   background: #fff;
   font-weight: 500;
-  width: 100%;
+  width: 80%;
+  position: relative;
+  left: 50px;
   border: 1px solid gray;
   padding: 10px;
   margin: 10px 0;
@@ -56,7 +58,7 @@ body {
 }
 
 .btn:hover {
-  background: #13293d;
+  background: blue;
   color: #fff;
 }
 
